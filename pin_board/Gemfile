@@ -28,6 +28,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form', '~> 3.2.1'
 # Use Device
 gem 'devise', '~> 3.5.3'
+# Use Paperclip
+gem 'paperclip', '~>4.3.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
