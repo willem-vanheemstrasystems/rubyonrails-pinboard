@@ -66,3 +66,7 @@ Some setup you must do manually if you haven't yet:
        rails g devise:views
 
 ===============================================================================
+
+NOTE: 'paperclip' gem, https://github.com/thoughtbot/paperclip
+
+This gem requires that you go through its documentation, for it to work
