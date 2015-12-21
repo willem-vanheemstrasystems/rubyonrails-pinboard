@@ -16,6 +16,12 @@
             = link_to 'Account', edit_user_registration_path, {:class => 'nav-link'}
           %li{:class => 'nav-item'}
             = link_to 'Sign Out', destroy_user_session_path, {:class => 'nav-link', :method =>:delete}
+      - else
+        %ul{:class => 'nav navbar-nav pull-right'}
+          %li{:class => 'nav-item'}
+            = link_to 'Sign Up', new_user_registration_path, {:class => 'nav-link'}
+          %li{:class => 'nav-item'}
+            = link_to 'Sign In', new_user_session_path, {:class => 'nav-link'}      
     - flash.each do |name, msg|
       = content_tag :div, msg, class: 'alert alert-info'
     = yield
