@@ -15,8 +15,14 @@ gem install --force --local *.gem
 
 This will install the gems.
 
+NOTE: some gems may be dependent on other gems (so you will need to download them as well)
+
 Always run the following command after this
 
 bundle install
 
 This will register the gems in your application.
+
+Then restart the Ruby server by typing
+
+rails server
